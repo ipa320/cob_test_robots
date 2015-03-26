@@ -1,0 +1,11 @@
+name: torso
+
+defaults:
+  eds_pkg: cob_torso_2dof
+  eds_file: "config/Schunk_0_63.dcf"
+
+modules:
+  - name: torso_2_joint
+    id: 4
+  - name: torso_3_joint
+    id: 5

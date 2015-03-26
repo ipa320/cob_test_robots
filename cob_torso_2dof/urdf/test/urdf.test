@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+  <test test-name="cob_torso_2dof_test" pkg="cob_description" type="test_urdf.py" args="$(find cob_torso_2dof)/urdf/robot.urdf.xacro"/>
+
+</launch> 
