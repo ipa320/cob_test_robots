@@ -10,7 +10,7 @@
   <xacro:include filename="$(find cob_torso_2dof)/calibration/calibration.urdf.xacro" />
 
   <!-- torso_2DOF -->
-  <xacro:include filename="$(find cob_description)/urdf/cob4_torso/torso_2DOF.urdf.xacro" />
+  <xacro:include filename="$(find cob_description)/urdf/cob4_torso/torso_2dof.urdf.xacro" />
 
   <!-- Used for fixing robot to Gazebo -->
   <link name="world"/>
