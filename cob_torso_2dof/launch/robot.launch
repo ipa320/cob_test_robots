@@ -16,7 +16,7 @@
 
   <!-- controllers -->
   <rosparam ns="torso" command="load" file="$(find cob_torso_2dof)/config/torso_controller.yaml" />
-  <rosparam ns="torso" command="load" file="$(find cob_torso_2dof)/config/joint_limits.yaml"/>
+  <!--rosparam ns="torso" command="load" file="$(find cob_torso_2dof)/config/joint_limits.yaml"/-->
   <rosparam ns="torso" command="load" file="$(find cob_torso_2dof)/config/torso_cartesian_controller.yaml"/>
 
   <!-- start_controllers -->
