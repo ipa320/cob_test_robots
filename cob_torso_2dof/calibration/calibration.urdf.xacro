@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<robot>
+
+	<!-- torso reference positions -->
+	<property name="torso_2_ref" value="0" />
+	<property name="torso_3_ref" value="0" />
+	
+	
+	<!-- this should not be in here, but atm the xacro calls are made directly from within the torso macro -->
+	<!-- cam3d left | handeye calibration | relative to torso_3_link -->
+	<property name="torso_cam3d_left_x" value="0.12839"/>
+	<property name="torso_cam3d_left_y" value="0.01802"/>
+	<property name="torso_cam3d_left_z" value="0.24214"/>
+	<property name="torso_cam3d_left_roll" value="0"/>
+	<property name="torso_cam3d_left_pitch" value="1.57079"/>
+	<property name="torso_cam3d_left_yaw" value="0.418879"/>
+	
+	<!-- cam3d right | handeye calibration | relative to torso_3_link -->
+	<property name="torso_cam3d_right_x" value="0.12839"/>
+	<property name="torso_cam3d_right_y" value="-0.01802"/>
+	<property name="torso_cam3d_right_z" value="0.24214"/>
+	<property name="torso_cam3d_right_roll" value="0"/>
+	<property name="torso_cam3d_right_pitch" value="1.57079"/>
+	<property name="torso_cam3d_right_yaw" value="-0.418879"/>
+	
+	<!-- cam3d down | handeye calibration | relative to torso_3_link -->
+	<property name="torso_cam3d_down_x" value="0.15908"/>
+	<property name="torso_cam3d_down_y" value="0.0"/>
+	<property name="torso_cam3d_down_z" value="0.14005"/>
+	<property name="torso_cam3d_down_roll" value="2.18166"/> <!--2.18166-->
+	<property name="torso_cam3d_down_pitch" value="0.0"/>
+	<property name="torso_cam3d_down_yaw" value="1.57079"/> <!--1.57079-->
+	
+</robot>

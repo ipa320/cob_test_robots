@@ -1,0 +1,13 @@
+name: torso
+
+defaults:
+  eds_pkg: cob_torso_2dof
+  eds_file: "config/Elmo.dcf"
+  dcf_overlay: # "ObjectID": "ParameterValue" (both as strings)
+    "1017": "100" # heartbeat producer
+
+modules:
+  - name: torso_2_joint
+    id: 32
+  - name: torso_3_joint
+    id: 33
