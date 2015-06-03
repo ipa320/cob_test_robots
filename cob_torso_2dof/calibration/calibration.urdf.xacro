@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <robot>
 
-	<!-- torso reference positions -->
-	<property name="torso_2_ref" value="0" />
-	<property name="torso_3_ref" value="0" />
-	
-	
 	<!-- this should not be in here, but atm the xacro calls are made directly from within the torso macro -->
 	<!-- cam3d left | handeye calibration | relative to torso_3_link -->
 	<property name="torso_cam3d_left_x" value="0.12839"/>
