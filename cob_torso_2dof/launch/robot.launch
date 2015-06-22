@@ -20,7 +20,7 @@
   <rosparam ns="torso" command="load" file="$(find cob_torso_2dof)/config/torso_cartesian_controller.yaml"/>
 
   <!-- start_controllers -->
-  <node ns="torso" name="joint_state_controller_spawner" pkg="controller_manager" type="spawner" args="joint_state_controller" respawn="true" />
+  <node ns="torso" name="torso_controller_spawner" pkg="controller_manager" type="controller_manager" args="spawn joint_state_controller" respawn="false" output="screen"/>
 
   <!-- control_mode_adapter -->
   <node ns="torso" name="cob_control_mode_adapter_node" pkg="cob_control_mode_adapter" type="cob_control_mode_adapter_node" cwd="node" respawn="false" output="screen"/>
