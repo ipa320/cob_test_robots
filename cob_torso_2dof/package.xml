@@ -1,12 +1,7 @@
 <package>
   <name>cob_torso_2dof</name>
   <version>0.5.0</version>
-
-  <description>
-
-     cob_torso_2dof
-
-  </description>
+  <description>cob_torso_2dof</description>
   
   <license>LGPL</license>
   
@@ -14,28 +9,29 @@
   <maintainer email="fxm@ipa.fhg.de">Felix Messmer</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
+
   <build_depend>roslaunch</build_depend>
   <build_depend>rostest</build_depend>
 
-  <run_depend>cob_command_gui</run_depend>
-  <run_depend>cob_dashboard</run_depend>
-  <run_depend>joy</run_depend>
-  <run_depend>cob_teleop</run_depend>
-  <run_depend>robot_state_publisher</run_depend>
-  <run_depend>cob_trajectory_controller</run_depend>
-  <run_depend>gazebo_ros</run_depend>
-  <run_depend>cob_gazebo_ros_control</run_depend>
-  <run_depend>rostopic</run_depend>
-  <run_depend>diagnostic_aggregator</run_depend>
-  <run_depend>controller_manager</run_depend>
-  <run_depend>cob_control_mode_adapter</run_depend>
-  <run_depend>topic_tools</run_depend>
   <run_depend>canopen_motor_node</run_depend>
+  <run_depend>cob_command_gui</run_depend>
+  <run_depend>cob_control_mode_adapter</run_depend>
   <run_depend>cob_controller_configuration_gazebo</run_depend>
-  <run_depend>cob_twist_controller</run_depend>
+  <run_depend>cob_dashboard</run_depend>
+  <run_depend>cob_description</run_depend>
   <run_depend>cob_frame_tracker</run_depend>
+  <run_depend>cob_gazebo_ros_control</run_depend>
+  <run_depend>cob_twist_controller</run_depend>
+  <run_depend>controller_manager</run_depend>
+  <run_depend>diagnostic_aggregator</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>joint_state_controller</run_depend>
+  <run_depend>joint_trajectory_controller</run_depend>
+  <run_depend>position_controllers</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rostopic</run_depend>
+  <run_depend>topic_tools</run_depend>
+  <run_depend>velocity_controllers</run_depend>
+  <run_depend>xacro</run_depend>
 
-  <export>
-
-  </export>
 </package>
