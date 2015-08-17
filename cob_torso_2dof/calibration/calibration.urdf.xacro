@@ -9,7 +9,7 @@
 	<property name="torso_cam3d_left_roll" value="0"/>
 	<property name="torso_cam3d_left_pitch" value="1.57079"/>
 	<property name="torso_cam3d_left_yaw" value="0.418879"/>
-	
+
 	<!-- cam3d right | handeye calibration | relative to torso_3_link -->
 	<property name="torso_cam3d_right_x" value="0.12839"/>
 	<property name="torso_cam3d_right_y" value="-0.01802"/>
@@ -17,7 +17,7 @@
 	<property name="torso_cam3d_right_roll" value="0"/>
 	<property name="torso_cam3d_right_pitch" value="1.57079"/>
 	<property name="torso_cam3d_right_yaw" value="-0.418879"/>
-	
+
 	<!-- cam3d down | handeye calibration | relative to torso_3_link -->
 	<property name="torso_cam3d_down_x" value="0.15908"/>
 	<property name="torso_cam3d_down_y" value="0.0"/>
@@ -25,5 +25,5 @@
 	<property name="torso_cam3d_down_roll" value="2.18166"/> <!--2.18166-->
 	<property name="torso_cam3d_down_pitch" value="0.0"/>
 	<property name="torso_cam3d_down_yaw" value="1.57079"/> <!--1.57079-->
-	
+
 </robot>

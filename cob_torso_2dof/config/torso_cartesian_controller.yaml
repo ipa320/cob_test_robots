@@ -30,7 +30,7 @@ twist_controller:
   enforce_vel_limits: true
   enforce_pos_limits: true
   tolerance: 5.0
-  
+
   # collision avoidance frames for obstacle distance
   collision_check_frames: [torso_3_link]
 
